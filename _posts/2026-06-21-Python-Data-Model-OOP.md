@@ -226,11 +226,3 @@ finally:                          # 있든 없든 항상
 ```
 
 맨 `except`로 다 잡으면 `KeyboardInterrupt`(Ctrl+C)·`SystemExit`까지 삼켜 위험 → 예외는 구체적으로 지정한다. 파이썬은 "허락보다 용서"(일단 실행하고 예외로 처리) 스타일.
-
----
-
-보충·교정 기록
-- "y=x 후 x도 바뀌나" 혼동을 **재바인딩 vs 변형** (1)(2)(3) 예제로 재정리(자료형이 아니라 동작이 구분 축임을 명시)
-- ==/is·가변성·hashable은 함정 글에서 결론만, 여기선 '왜'(reference 모델·해시 불변성)를 보강
-- pass by object reference를 append_one/rebind 대비로 명확화(원본은 서술만)
-- 잡예시(anagram·파스칼 삼각형)·byte vs str 세부는 범용성 낮아 제외
